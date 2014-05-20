@@ -7,6 +7,11 @@
     <!-- Specify the app entry point class.                         -->
     <entry-point class='org.gwtbootstrap3.sample.client.SampleWebApp'/>
 
+    <!--For SDM-->
+    <add-linker name="xsiframe"/>
+    <set-configuration-property name="devModeRedirectEnabled" value="true"/>
+    <set-configuration-property name="gwt.superdevmode" value="on"/>
+
     <!-- Specify the paths for translatable code                    -->
     <source path='client'/>
 
