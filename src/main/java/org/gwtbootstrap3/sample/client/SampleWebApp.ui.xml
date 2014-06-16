@@ -4,7 +4,7 @@
 
     <b.html:Div>
         <b:Jumbotron>
-            <b:Heading size="1" text="Sample Web App"/>
+            <b:Heading size="H1" text="Sample Web App"/>
             <b.html:Paragraph>Just fork this repo and get started!!</b.html:Paragraph>
         </b:Jumbotron>
     </b.html:Div>
